@@ -18,6 +18,8 @@ Przed uruchomieniem aplikacji należy upewnić się, że środowisko posiada:
 - Zainstalowany pakiet `openai`oraz `python-dotenv`
 - Plik `.env` zawierający klucz API OpenAI.
 
+Należy utworzyć plik `.env` zawierający komendę OPENAI_API_KEY="klucz do API_openai" , plik ten nie jest dołączony automatycznie ze względów bezpieczenśtwa i braku chęci udostępniania klucza w publicznym repozytorium github
+
 ## Przykładowe użycie funkcji 
     sciezka_do_pliku = "zadanie.txt"
     generuj_html_z_artykulu(sciezka_do_pliku, temperature=0.7, max_tokens=2500)
